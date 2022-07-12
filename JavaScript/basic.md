@@ -43,7 +43,7 @@
   - 템플릿 리터럴(Template literals)
   ```javascript
   const carPrice = 250000
-  console.log(`이 차는 ${carPrice}원 입니다.`)           // 이 차느 250000원 입니다.
+  console.log(`이 차는 ${carPrice}원 입니다.`)           // 이 차는 250000원 입니다.
   ```
   2. 산술연산자
   - 숫자 데이터 연산 가능
@@ -54,7 +54,7 @@
   `%`   나머지
   `**`  거듭제곱
   ```javascript
-  console.log(25 % 7)   // 4
+  console.log(25 % 7)                               // 4
   ```
   3. 증감연산자
   - 자신의 값을 증가시키거나 감소시킴
