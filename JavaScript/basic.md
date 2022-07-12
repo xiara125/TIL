@@ -32,3 +32,13 @@
   console.log(name1)    // null
   console.log(name2)    // undefined
   ```
+  
+  ## 연산자
+    1. 문자열 붙이기
+      - +를 사용하여 이어 붙일수 있다.
+      ```javascript
+      console.log('My ' + 'name ' + 'is ' + 'xiara125')   // My name is xiara125
+      console.log('I ' + 'have ' + 3 + ' car')            // I have 3 car
+    2. 
+  
+  
