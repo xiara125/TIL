@@ -8,26 +8,27 @@
 ## 데이터 타입
   1. 숫자
   ```javascript
-  console.log(10)
+  console.log(10)       // 10
   const age = 20
-  console.log(age)
+  console.log(age)      // 20
   ```
   2. 문자열
   ```javascript
-  console.log('string')
+  console.log('string') // string
+  console.log('30')     // 30 (문자열)
   const string = 'poem'
-  console.log(string)
+  console.log(string)   // poem
   ```
   3. Boolean
   ```javascript
-  console.log(true)
+  console.log(true)     // true
   const bool = false
-  consol.log(bool)
+  consol.log(bool)      // false
   ```
   4. null, undefined
   ```javascript
   const name1 = null
   const name2
-  console.log(name1)
-  console.log(name2)
+  console.log(name1)    // null
+  console.log(name2)    // undefined
   ```
