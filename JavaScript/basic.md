@@ -35,7 +35,7 @@
   
 ## 연산자
   1. 문자열 붙이기
-  - +를 사용하여 이어 붙일수 있다. (문자와 숫자를 이어붙이면 숫자가 문가로 인식됨)
+  - `+`를 사용하여 이어 붙일수 있다. (문자와 숫자를 이어붙이면 숫자가 문가로 인식됨)
   ```javascript
   console.log('My ' + 'name ' + 'is ' + 'xiara125')   // My name is xiara125
   console.log('I ' + 'have ' + 3 + ' car')            // I have 3 car
