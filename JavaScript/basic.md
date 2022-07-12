@@ -36,26 +36,26 @@
 ## 연산자
   1. 문자열 붙이기
     - +를 사용하여 이어 붙일수 있다. (문자와 숫자를 이어붙이면 숫자가 문가로 인식됨)
-    ```javascript
-    console.log('My ' + 'name ' + 'is ' + 'xiara125')   // My name is xiara125
-    console.log('I ' + 'have ' + 3 + ' car')            // I have 3 car
-    ```
+  ```javascript
+  console.log('My ' + 'name ' + 'is ' + 'xiara125')   // My name is xiara125
+  console.log('I ' + 'have ' + 3 + ' car')            // I have 3 car
+  ```
     - 템플릿 리터럴(Template literals)
-    ```javascript
-    const carPrice = 250000
-    console.log(`이 차는 ${carPrice}원 입니다.`)           // 이 차느 250000원 입니다.
-    ```
+  ```javascript
+  const carPrice = 250000
+  console.log(`이 차는 ${carPrice}원 입니다.`)           // 이 차느 250000원 입니다.
+  ```
   2. 산술연산자
     - 숫자 데이터 연산 가능
-    `+`   덧셈
-    `-`   뺄셈
-    `*`   곱셈
-    `/`   나눗셈
-    `%`   나머지
-    `**`  거듭제곱
-    ```javascript
-    console.log(25 % 7)   // 4
-    ```
+  `+`   덧셈
+  `-`   뺄셈
+  `*`   곱셈
+  `/`   나눗셈
+  `%`   나머지
+  `**`  거듭제곱
+  ```javascript
+  console.log(25 % 7)   // 4
+  ```
   3. 증감연산자
     - 자신의 값을 증가시키거나 감소시킴
   
