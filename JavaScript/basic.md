@@ -61,15 +61,30 @@
     1. count에 값을 더한 후 precount에 할당  
     ```javascript
     let count = 1
-    let precount = ++count
+    const precount = ++count
     cosole.log(count)                                 // 2
     cosole.log(precount)                              // 2 
     ```
     2. postcount에 먼저 할당 후 값을 count에 더함
     ```javascript
     let count = 1
-    let postcount = count++
+    const postcount = count++
     cosole.log(count)                                 // 2
     cosole.log(precount)                              // 1
     ```
+  4. 대입연산자(Assignment operators)
+  - `=` : 어떤 값을 어떤 변수에 할당
+  - `+=`, `-=` : 연산과 대입을 한번에 사용 가능
+  ```javascript
+  const dressPrice = 200000
+  const bagPrice = 300000
+  let totalPrice = 0
   
+  totalPrice += dressPrice
+  console.log(totalPrice)                             // 200000
+  totalPrice += bagPrice
+  console.log(totalPrice)                             // 500000
+  
+  totalPrice -= dressPrice
+  console.log(totalPrice)                             // 300000
+  ```
