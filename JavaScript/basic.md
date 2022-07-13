@@ -131,8 +131,8 @@
   console.log(javascript === javascript)             // true
   console.log(javascript === Javascript)             // false
   ```
-    1. `==`  : 값만 비교
-    2. `===` : 값과 데이터타입 비교
+  - `==`  : 값만 비교
+  - `===` : 값과 데이터타입 비교
   ```javascript
   console.log(1 == "1")                            // true
   console.log(1 === "1")                           // false
