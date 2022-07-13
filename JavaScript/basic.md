@@ -63,7 +63,9 @@
   let count = 1
   let precount = ++count
   cosole.log(count)                                 // 2
-  cosole.log(precount)                              // 2 ```
+  cosole.log(precount)                              // 2 
+  ```
+  
     2. postcount에 먼저 할당 후 값을 count에 더함
   ```javascript
   let count = 1
