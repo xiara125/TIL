@@ -58,14 +58,14 @@
   ```
   3. 증감연산자
   - 자신의 값을 증가시키거나 감소시킴
-    - count에 값을 더한 후 precount에 할당  
+    1. count에 값을 더한 후 precount에 할당  
   ```javascript
   let count = 1
   let precount = ++count
   cosole.log(count)                                 // 2
   cosole.log(precount)                              // 2
   ```
-    - postcount에 먼저 할당 후 값을 count에 더함
+    2. postcount에 먼저 할당 후 값을 count에 더함
   ```javascript
   let count = 1
   let postcount = count++
