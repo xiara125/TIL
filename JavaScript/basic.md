@@ -45,6 +45,7 @@
   const carPrice = 250000
   console.log(`이 차는 ${carPrice}원 입니다.`)           // 이 차는 250000원 입니다.
   ```
+  
   2. 산술연산자
   - 숫자 데이터 연산 가능
     - `+`   덧셈
@@ -56,22 +57,24 @@
   ```javascript
   console.log(25 % 7)                                // 4
   ```
+  
   3. 증감연산자
   - 자신의 값을 증가시키거나 감소시킴
-    1. count에 값을 더한 후 precount에 할당  
+    1. `count`에 값을 더한 후 `precount`에 할당  
     ```javascript
     let count = 1
     const precount = ++count
     cosole.log(count)                                 // 2
     cosole.log(precount)                              // 2 
     ```
-    2. postcount에 먼저 할당 후 값을 count에 더함
+    2. `postcount`에 먼저 할당 후 값을 `count`에 더함
     ```javascript
     let count = 1
     const postcount = count++
     cosole.log(count)                                 // 2
     cosole.log(precount)                              // 1
     ```
+    
   4. 대입연산자(Assignment operators)
   - `=` : 어떤 값을 어떤 변수에 할당
   - `+=`, `-=` : 연산과 대입을 한번에 사용 가능
@@ -88,3 +91,5 @@
   totalPrice -= dressPrice
   console.log(totalPrice)                             // 300000
   ```
+  
+  5. 비교연산자( 
