@@ -43,10 +43,10 @@
   - 템플릿 리터럴(Template literals)
   ```javascript
   const carPrice = 250000
-  console.log(`이 차는 ${carPrice}원 입니다.`)           // 이 차는 250000원 입니다.
+  console.log(`이 차는 ${carPrice}원 입니다.`)            // 이 차는 250000원 입니다.
   ```
   
-  2. 산술연산자
+  2. 산술연산자(Numeric operators)
   - 숫자 데이터 연산 가능
     - `+`   덧셈
     - `-`   뺄셈
@@ -55,10 +55,10 @@
     - `%`   나머지
     - `**`  거듭제곱
   ```javascript
-  console.log(25 % 7)                                // 4
+  console.log(25 % 7)                                 // 4
   ```
   
-  3. 증감연산자
+  3. 증감연산자(Increment Decrememt operators)
   - 자신의 값을 증가시키거나 감소시킴
     1. `count`에 값을 더한 후 `precount`에 할당  
     ```javascript
@@ -84,12 +84,56 @@
   let totalPrice = 0
   
   totalPrice += dressPrice
-  console.log(totalPrice)                             // 200000
+  console.log(totalPrice)                            // 200000
   totalPrice += bagPrice
-  console.log(totalPrice)                             // 500000
+  console.log(totalPrice)                            // 500000
   
   totalPrice -= dressPrice
-  console.log(totalPrice)                             // 300000
+  console.log(totalPrice)                            // 300000
   ```
   
-  5. 비교연산자( 
+  5. 비교연산자(Comparison operators)
+  - 숫자값을 비교하는 연산자, 이것을 통해 얻는 값이 `boolean`
+  ```javascript
+  console.log(2 < 5)                                 // true
+  console.log(2 <= 7)                                // true
+  console.log(2 > 5)                                 // false 
+  console.log(2 >= 7)                                // false
+  ```
+  
+  6. 논리연산자(Logical operators)
+  - `||` : or
+  - `&&` : and
+  - `!`  : not
+  ```javascript
+  let isOnSale = true
+  let isDiscountItem = true
+
+  console.log(isOnSale && isDiscountItem)            // true
+  console.log(isOnSale || isDiscountItem)            // true
+
+  isOnSale = false
+  console.log(isOnSale && isDiscountItem)            // false
+  console.log(isOnSale || isDiscountItem)            // true
+
+  isDiscountItem = false
+  console.log(isOnSale && isDiscountItem)            // false
+  console.log(isOnSale || isDiscountItem)            // false
+
+  console.log(!isOnSale)                             // true
+  ```
+  
+  7. 일치연산자(Equality operators)
+  - 주어진 두 값이 일치하는지 비교
+  ```javascript
+  console.log(1 === 2)                               // true
+  console.log(1 === 2)                               // false
+  console.log(javascript === javascript)             // true
+  console.log(javascript === Javascript)             // false
+  ```
+    1. `==`  : 값만 비교
+    2. `===` : 값과 데이터타입 비교
+    ```javascript
+    console.log(1 == "1")                            // true
+    console.log(1 === "1")                           // false
+    ```
