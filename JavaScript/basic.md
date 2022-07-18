@@ -140,6 +140,6 @@
   
 ## 조건문
   1. if
-  ```javascript```
+  ```javascript
   ..
   ```
