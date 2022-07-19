@@ -143,3 +143,7 @@
   ```javascript
   ..
   ```
+  2. else, else if
+  ```javascript
+  ...
+  ```
