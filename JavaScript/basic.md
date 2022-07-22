@@ -141,9 +141,21 @@
 ## 조건문
   1. if
   ```javascript
-  ..
+  const dressPrice = 50000
+  if(dressPrice < 40000) {
+      console.log('드레스을 사겠습니다.')
+  } else {
+      console.log('너무 비싸요. 드레스를 사지 않겠습니다.')
+  }
   ```
   2. else, else if
   ```javascript
-  ...
+  const dressPrice = 50000
+  if(dressPrice < 40000) {
+      console.log("이 드레스를 사겠습니다.")
+  } else if (dressPrice <= 50000) {
+      console.log("조금 더 고민해볼게요")
+  } else {
+      console.log("너무 비싸요. 사지 않겠습니다.")
+  }
   ```
